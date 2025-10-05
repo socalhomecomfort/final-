@@ -11,13 +11,10 @@
     body {
       font-family: 'Roboto', sans-serif;
       background: #f4f8fb;
-      text-align: center;
-      padding: 60px;
       color: #333;
-    }
-    main {
-      max-width: 600px;
-      margin: 0 auto;
+      margin: 0;
+      text-align: center;
+      padding: 60px 20px;
     }
     h1 {
       color: #ffb703;
@@ -36,10 +33,14 @@
     a:hover {
       text-decoration: underline;
     }
+    footer {
+      background: #000;
+      color: #ffd166;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
     @media (max-width: 600px) {
-      body {
-        padding: 40px 20px;
-      }
       h1 {
         font-size: 28px;
       }
@@ -50,17 +51,14 @@
   </style>
 </head>
 <body>
-  <main role="main">
-    <h1>✅ Thank You!</h1>
-    <p>Your appointment request has been received. We’ll contact you shortly to confirm.</p>
-    <p><a href="index.html">← Back to Home</a></p>
-  </main>
+  <h1>✅ Thank You!</h1>
+  <p>Your appointment request has been submitted successfully.</p>
+  <p>We’ll contact you shortly to confirm the details.</p>
+  <p><a href="index.html">← Back to Home</a></p>
 
-  <script>
-    // Optional: Redirect to homepage after 8 seconds
-    setTimeout(() => {
-      window.location.href = 'index.html';
-    }, 8000);
-  </script>
+  <footer>
+    <p>📞 424-250-0053 | ✉️ <a href="mailto:socalhomecomfort@gmail.com" style="color:#ffd166;">socalhomecomfort@gmail.com</a></p>
+    <p>&copy; 2025 SoCal Home Comfort | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
